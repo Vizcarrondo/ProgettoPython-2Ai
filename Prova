@@ -1,0 +1,36 @@
+MaxHP = 20
+HP = MaxHP
+print("SEI UN VECCHIO SIGNORE UMANO NEI BASSIFONDI DI SOLTERRA, NON POSSIEDI NULLA, HAI PERSO TUTTO. TI TROVI IN UN VICOLO BUIO E, COME OGNI GIORNO, STAI FISSANDO IL VUOTO MA QUESTA VOLTA INTRAVEDI UN'OMBRA UN PO' BIZZARRA E INUMANA:")
+input("SATANA: Salve, mortale, non penso ci sia bisogno di presentarmi. Sono qui per un patto, o per meglio dire, un contratto: voglio offrirti l'eterna giovinezza e l'eterna ricchezza in cambio di un favorino, a più tardi le spiegazioni. Allora, ci stai?")
+Scelta = input()
+if Scelta == "No":
+    print("SATANA: Coa?!?!? Sei un pazzo a rifiutare una richiesta del diavolo in persona! Ti meriti di morire!")
+    input("SEI MORTO")
+    print("Causa: Ti sei messo contro SATANA e ti ha ucciso")
+    input("Vuoi rigiocare?")
+    Scelta = input()
+    if Scelta == "No":
+        quit()
+    elif Scelta == "Si":
+        print("SATANA: Allora procediamo, firma in fondo il foglio")
+Nome = input()
+if Nome == "Gesù":
+    print("Luca Acampora: Ti credi simpatico? Cambia nome.")
+    Nome = input()
+    print("sei sicuro?")
+CheckNome = input()
+if CheckNome == "No":
+    print("SATANA: ti sei dimenticato per caso il tuo nome? Muoviti se non vuoi fare una brutta fine")
+    Nome = input()
+print("SATANA: Ok, ora ti spiego in cosa consiste il contratto.")
+input("SATANA: Dovrai ammazzare 6 miei seguaci, si fanno chiamare IUDICES. Mi hanno tradito, stanno attuando una ribellione per abbattermi e tu dovrai fermarli.")
+input("SATANA: Ecco: questa è la tua armatura. Sarai simile ad un gladiatore romano, anche se... dovrai indossare questo sacchetto di carta, SEMPRE; una volta ammazzato uno degli IUDICES dovrai raccogliere il sangue col sacchetto e poi indossarlo. Vai tranquillo, questa è solo una prova della tua fiducia.")
+input("hai ottenuto: Sacco di Carta (Oggetto chiave)!")
+input("hai ottenuto: Armatura (Oggetto chiave)!")      
+input("SATANA:La tua prima destinazione sarà Necromorus, lì troverai Euronymous Il Principe della Morte, sarà la tua prima vittima")
+input("SONO PASSATE 13 ORE DALLA PARTENZA DA SOLTERRA E COMINCI A INTRAVEDERE IL REGNO DI NECROMORUS")
+input("SEI ENTRATO NEL REGNO. LA CITTà è TETRA, OSCURA E GLI EDIFICI RICORDANO UNO STILE BAROCCO MA ANCHE GOTICO, QUESTA CITTà è MOLTO ANGOSCIANTE.")
+input("UNA VECCHIA TI BLOCCA, SEMBRA AVERE IN MANO UNA SPECIE DI FOTOCAMERA, VUOI STARE ALLONTANARTI?")
+Scelta = input()
+if Scelta == "No":
+    print("Anziana: Lei! Lei! Ha una oscura presenza che la perseguita... poi... è spacciato...")   
